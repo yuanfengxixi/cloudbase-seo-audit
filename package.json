@@ -1,0 +1,15 @@
+{
+  "name": "cloudbase-seo-audit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SSRF-resistant public website SEO checks for Node.js and Tencent CloudBase",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test *.test.cjs",
+    "package": "node package-cloud-function.cjs",
+    "start": "node index.cjs"
+  }
+}
